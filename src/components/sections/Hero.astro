@@ -1,0 +1,229 @@
+---
+import { basics } from '@cv';
+import { Image } from 'astro:assets';
+import Section from '@/components/Section.astro';
+import Mail from '@/icons/Mail.astro';
+import Phone from '@/icons/Phone.astro';
+import Linkedin from '@/icons/Linkedin.astro';
+import TikTok from '@/icons/TikTok.astro';
+import Github from '@/icons/Github.astro';
+import World from '@/icons/World.astro';
+import Link from '@/icons/Link.astro';
+import PersonalPhoto from '../../../public/Personalphoto.webp';
+import Website from '@/icons/Site.astro';
+
+const { name, label, location, profiles, phone, email } = basics;
+const { city, region, countryCode } = location;
+
+const SOCIAL_ICONS: Record<string, any> = {
+  Github,
+  Linkedin,
+  TikTok,
+  Website,
+};
+
+const linkedinInfo = profiles.find(({ network }) => network === 'LinkedIn');
+const linkedinUrl = linkedinInfo?.url;
+const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(' • ');
+---
+
+<Section>
+  <p class="print">
+    <strong>Nota:</strong> Puedes encontrar este sitio web en <a
+      href="https://cv-simonmontoya.netlify.app"><Link /></a
+    >
+  </p>
+
+  <div class="container">
+    <div class="info">
+      <h1>{name}</h1>
+      <h2>
+        {label}<a
+          class="website print"
+          href="https://porfolio-simonmontoya.netlify.app"
+          ><Website /></a
+        >
+      </h2>
+
+      <span>
+        <World />
+        {city}, {region}, {countryCode}
+      </span>
+      <footer class="print">
+        {printInfo}
+      </footer>
+      <footer class="no-print">
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Enviar un correo electronico a ${name}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <title>Email</title>
+              <Mail />
+            </a>
+          )
+        }
+        {
+          phone && (
+            <a
+              href={`tel${phone}`}
+              title={`Llamar a ${name} al telefono ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <title>Phone</title>
+              <Phone />
+            </a>
+          )
+        }
+        {
+          profiles.map(({ network, url }) => {
+            const Icon = SOCIAL_ICONS[network];
+
+            return (
+              <a
+                href={url}
+                title={`Visitar el perfil de ${name} en ${network}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <title>Social Media</title>
+                <Icon />
+              </a>
+            );
+          })
+        }
+      </footer>
+    </div>
+    <figure>
+      <Image
+        style="object-fit: cover;  border-radius: 16px; aspect-ratio: 1 / 1;"
+        src={PersonalPhoto}
+        alt={name}
+        width={160}
+      />
+    </figure>
+  </div>
+</Section>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 32px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    color: #444;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-wrap: balance;
+    display: flex;
+    gap: 5px;
+  }
+
+  img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 128px;
+    border-radius: 16px;
+  }
+
+  span {
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    letter-spacing: -0.05rem;
+  }
+
+  footer {
+    color: #555;
+
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  footer a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  footer a:hover {
+    background: #eee;
+    border: 1px solid #ddd;
+  }
+
+  .print {
+    display: none;
+  }
+
+  .website {
+    color: #444;
+  }
+
+  @media (width <= 700px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    .info {
+      justify-content: center;
+      align-items: center;
+      padding-right: 0;
+      text-align: center;
+    }
+
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+
+    figure {
+      margin: 0 auto;
+    }
+  }
+
+  @media print {
+    .no-print {
+      display: none;
+    }
+  }
+
+  @media print {
+    .print {
+      display: block;
+    }
+  }
+</style>

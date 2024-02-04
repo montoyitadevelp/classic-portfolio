@@ -1,0 +1,110 @@
+---
+import { work } from '@cv';
+import Section from '../Section.astro';
+---
+
+<Section title="Experiencia">
+  <ul>
+    {
+      work.map(
+        ({
+          name,
+          startDate,
+          endDate,
+          position,
+          summary,
+          highlights,
+          location,
+        }) => {
+          return (
+            <li>
+              <article>
+                <header>
+                  <div class="location">
+                    <div class="company">
+                      <h3>{name}</h3>
+                      <h4>{position}</h4>
+                    </div>
+                  </div>
+                  <time>
+                    {startDate} - {endDate}
+                  </time>
+                </header>
+                <footer>
+                  <p>{summary}</p>
+                </footer>
+              </article>
+            </li>
+          );
+        }
+      )
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  article h4 {
+    color: #222;
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    min-width: 102px;
+  }
+
+  footer p {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .company {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+  }
+
+  .location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .location h2 {
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    border-width: 1px;
+    border-color: transparent;
+    background-color: #f8f8fa;
+    border-radius: 8px;
+    padding: 0.4rem;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  }
+
+  @media (width <= 700px) {
+    time {
+      text-align: right;
+    }
+  }
+</style>

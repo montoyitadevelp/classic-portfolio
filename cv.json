@@ -1,0 +1,250 @@
+{
+  "basics": {
+    "name": "Simón Restrepo Montoya",
+    "label": "Fullstack Web Developer",
+    "email": "montoyitaaa1022@gmail.com",
+    "phone": "+57 (310) 855-1628",
+    "url": "https://portfolio-simonmontoya.vercel.app/",
+    "summary": "Soy un chico único e indispensable con habilidades extraordinarias en el mundo de las tecnologías informáticas. Enseñar, innovar y diseñar me ha permitido ayudar al mundo del software. Mi propósito arraiga en mi “ser cuántico”. Aportar, generar y brindar soluciones a las personas es esencial en mi día a día.",
+    "location": {
+      "address": "Calle 30 # 31 - 16",
+      "postalCode": "051860",
+      "city": "Santa Rosa de Osos",
+      "countryCode": "COL",
+      "region": "Antioquia"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "montoyitadevelp",
+        "url": "https://github.com/montoyitadevelp"
+      },
+      {
+        "network": "Linkedin",
+        "username": "simón-restrepo-montoya-071244249",
+        "url": "https://www.linkedin.com/in/sim%C3%B3n-restrepo-montoya-071244249/"
+      },
+      {
+        "network": "TikTok",
+        "username": "@bastardosss_",
+        "url": "https://www.tiktok.com/@bastardosss_"
+      },
+      {
+        "network": "Website",
+        "username": "Simon Montoya",
+        "url": "https://porfolio-simonmontoya.netlify.app"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Bancolombia - GRC",
+      "position": "Fullstack Developer",
+      "url": "https://company.com",
+      "startDate": "Septiembre 2023",
+      "endDate": "Enero 2024",
+      "summary": "Escale y desarrolle nuevos servicios en la plataforma del GRC, para el consumo de información frente al análisis de datos, por lo que recorte los tiempos de carga y despliegue en producción. Mejorando la accesibilidad, confidencialidad y seguridad en el cliente. Trabajé como prestador de servicios durante 5 meses.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "NoCountry",
+      "position": "Lead Frontend Architect",
+      "url": "https://www.nocountry.tech/",
+      "startDate": "Agosto 2023",
+      "endDate": "Diciembre 2023",
+      "summary": "Lidere la incorporación y mantenibilidad del código del cliente, fine SOLID principles, consumo de APIs, manejador estado global, autentificación, seguridad e intérprete componentización en los sides projects.",
+      "highlights": ["Started the company"],
+      "location": "Remote"
+    },
+    {
+      "name": "WebDevHunt",
+      "position": "Frontend Developer",
+      "url": "https://company.com",
+      "startDate": "Mayo 2023",
+      "endDate": "Agosto 2023",
+      "summary": "Integre el enrutamiento, modo adaptable para móviles y filtrados de búsqueda para ordenamiento de datos. La optimización integrada mejoró la carga lazy para los usuarios. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "highlights": ["Started the company"],
+      "location": "Remote"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Coursera",
+      "url": "https://institution.com/",
+      "area": "Ciencias de la computación.",
+      "studyType": "Bachelor",
+      "startDate": "Febrero 2021",
+      "endDate": "Noviembre 2022",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": ["HTML"]
+    },
+    {
+      "keywords": ["CSS"]
+    },
+    {
+      "keywords": ["Tailwind CSS"]
+    },
+    {
+      "keywords": ["JavaScript"]
+    },
+    {
+      "keywords": ["TypeScript"]
+    },
+    {
+      "keywords": ["Python"]
+    },
+    {
+      "keywords": ["Node.js"]
+    },
+    {
+      "keywords": ["Express.js"]
+    },
+    {
+      "keywords": ["MySQL"]
+    },
+    {
+      "keywords": ["MongoDB"]
+    },
+    {
+      "keywords": ["Git"]
+    },
+    {
+      "keywords": ["React/Next.js/Astro"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "ExemplarClean",
+      "isActive": true,
+      "startDate": "2023-10-15",
+      "endDate": "2023-10-28",
+      "description": "Landing Page para una compañia de servicios de limpieza.",
+      "highlights": ["Astro", "Typescript", "Tailwind CSS"],
+      "url": "https://exemplarclean.netlify.app/"
+    },
+    {
+      "name": "BoaVista",
+      "isActive": true,
+      "startDate": "2023-12-10",
+      "endDate": "2023-12-13",
+      "description": "Landing Page enfocada en la atracción de turistas del extranjero.",
+      "highlights": ["Astro", "Typescript", "Tailwind CSS"],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "POV",
+      "isActive": true,
+      "startDate": "2023-10-05",
+      "endDate": "2023-11-01",
+      "description": "¡POV la plataforma que transforma la interacción social!",
+      "highlights": [
+        "React",
+        "Javascript",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "Socket.io"
+      ],
+      "url": "https://pov-chat.netlify.app/"
+    },
+    {
+      "name": "Dashboard",
+      "isActive": true,
+      "startDate": "2023-12-07",
+      "endDate": "2023-12-31",
+      "description": "Gestion de control de ventas y compras personalizadas.",
+      "highlights": [
+        "Next.js",
+        "React",
+        "Typescript",
+        "Tailwind CSS",
+        "PostgreSQL"
+      ],
+      "url": "https://github.com/montoyitadevelp/nextjs-dashboard"
+    },
+    {
+      "name": "ChatApp",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Aplicación de mensajeria en tiempo real y registro de usuarios.",
+      "highlights": [
+        "React",
+        "Javascript",
+        "Tailwind CSS",
+        "Node.js",
+        "MongoDB",
+        "Socket.io"
+      ],
+      "url": "https://github.com/montoyitadevelp/Mongo-Socket-React"
+    },
+    {
+      "name": "Teletubbie",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Alquilar tu lugar favorito para tus pasatiempos, ahora no es problema con Teletubbie",
+      "highlights": ["React", "Typescript", "NextUI", "Supabase"],
+      "url": "https://github.com/montoyitadevelp/Teletubie"
+    }
+  ]
+}
