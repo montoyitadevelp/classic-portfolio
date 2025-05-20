@@ -1,69 +1,76 @@
 {
   "basics": {
-    "name": "Simón Restrepo Montoya",
+    "name": "Sebastian Patiño Preciado",
     "label": "Fullstack Web Developer",
-    "email": "montoyitaaa1022@gmail.com",
-    "phone": "+57 (310) 855-1628",
+    "email": "sebaspreciado1044@gmail.com",
+    "phone": "+57 (321) 844-5333",
     "url": "https://portfolio-simonmontoya.vercel.app/",
     "summary": "Soy un chico único e indispensable con habilidades extraordinarias en el mundo de las tecnologías informáticas. Enseñar, innovar y diseñar me ha permitido ayudar al mundo del software. Mi propósito arraiga en mi “ser cuántico”. Aportar, generar y brindar soluciones a las personas es esencial en mi día a día.",
     "location": {
       "address": "Calle 30 # 31 - 16",
       "postalCode": "051860",
-      "city": "Santa Rosa de Osos",
+      "city": "Sabaneta",
       "countryCode": "COL",
       "region": "Antioquia"
     },
     "profiles": [
       {
         "network": "Github",
-        "username": "montoyitadevelp",
-        "url": "https://github.com/montoyitadevelp"
+        "username": "SebasPreciado19",
+        "url": "https://github.com/SebasPreciado10"
       },
       {
         "network": "Linkedin",
-        "username": "simón-restrepo-montoya-071244249",
-        "url": "https://www.linkedin.com/in/sim%C3%B3n-restrepo-montoya-071244249/"
-      },
-      {
-        "network": "TikTok",
-        "username": "@bastardosss_",
-        "url": "https://www.tiktok.com/@bastardosss_"
-      },
-      {
-        "network": "Website",
-        "username": "Simon Montoya",
-        "url": "https://porfolio-simonmontoya.netlify.app"
+        "username": "sebastián-preciado-4b34a22a4",
+        "url": "https://www.linkedin.com/in/sebasti%C3%A1n-preciado-4b34a22a4/"
       }
     ]
   },
   "work": [
     {
-      "name": "Bancolombia - GRC",
-      "position": "Fullstack Developer",
+      "name": "Bancolombia",
+      "position": "Fullstack Developer en Riesgos Operacionales",
       "url": "https://company.com",
-      "startDate": "Septiembre 2023",
-      "endDate": "Enero 2024",
-      "summary": "Escale y desarrolle nuevos servicios en la plataforma del GRC, para el consumo de información frente al análisis de datos, por lo que recorte los tiempos de carga y despliegue en producción. Mejorando la accesibilidad, confidencialidad y seguridad en el cliente. Trabajé como prestador de servicios durante 5 meses.",
-      "highlights": ["Started the company"]
+      "startDate": "Agosto 2023",
+      "endDate": "Febrero 2024",
+      "summary": "Desarrollo y soporte de herramientas automatizadas (RPAs) para la generación eficiente de informes, junto con el diseño integral de soluciones Front-end y Back-end para un proyecto de identificación automática de riesgos, utilizando fine-tuning de GPT-2 (modelos de lenguaje avanzados).",
+      "highlights": [
+        "Started the company"
+      ]
     },
     {
-      "name": "NoCountry",
+      "name": "C2 Developers España",
+      "position": "Fullstack Developer",
+      "url": "https://company.com",
+      "startDate": "Marzo 2024",
+      "endDate": "Mayo 2025",
+      "summary": "Desarrollo integral de dashboards interactivos y sistemas de gestión de NFTs y transferencias, con implementación de herramientas de monitoreo y control de usuarios en tiempo real. Participación en el diseño y desarrollo de un oráculo inteligente basado en IA y smart contracts sobre blockchain Solana. Además, contribución clave en la creación y renovación de la página principal de la empresa, optimizando la experiencia de usuario y la funcionalidad web.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "No Country",
       "position": "Lead Frontend Architect",
       "url": "https://www.nocountry.tech/",
-      "startDate": "Agosto 2023",
-      "endDate": "Diciembre 2023",
-      "summary": "Lidere la incorporación y mantenibilidad del código del cliente, fine SOLID principles, consumo de APIs, manejador estado global, autentificación, seguridad e intérprete componentización en los sides projects.",
-      "highlights": ["Started the company"],
+      "startDate": "Enero 2023",
+      "endDate": "Junio 2023",
+      "summary": "Desarrollo de interfaces dinámicas en React para visualizar datos complejos del mercado de monedas, integrando predicciones de modelos de Machine Learning para facilitar la interpretación de tendencias y movimientos. Implementé componentes interactivos que mejoraron la experiencia del usuario, permitiendo una navegación fluida y una toma de decisiones basada en información clara y actualizada.",
+      "highlights": [
+        "Started the company"
+      ],
       "location": "Remote"
     },
     {
-      "name": "WebDevHunt",
+      "name": "Prysma Fotografia",
       "position": "Frontend Developer",
       "url": "https://company.com",
-      "startDate": "Mayo 2023",
-      "endDate": "Agosto 2023",
-      "summary": "Integre el enrutamiento, modo adaptable para móviles y filtrados de búsqueda para ordenamiento de datos. La optimización integrada mejoró la carga lazy para los usuarios. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": ["Started the company"],
+      "startDate": "Enero 2023",
+      "endDate": "Junio 2023",
+      "summary": "Contribución al desarrollo de un portafolio web para un fotógrafo/arquitecto, resaltando su trabajo con imágenes impactantes. Desarrollo de una infraestructura sólida y con rendimiento eficiente, logrando una fusión exitosa entre estética y funcionalidad.",
+      "highlights": [
+        "Started the company"
+      ],
       "location": "Remote"
     }
   ],
@@ -75,19 +82,35 @@
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "Coursera",
-      "url": "https://institution.com/",
-      "area": "Ciencias de la computación.",
+      "institution": "CESDE (institución de educación técnica antioqueña)",
+      "url": "https://www.cesde.edu.co/",
+      "area": "Desarrollador De Software",
       "studyType": "Bachelor",
-      "startDate": "Febrero 2021",
-      "endDate": "Noviembre 2022",
+      "startDate": "Enero 2022",
+      "endDate": "Diciembre 2023",
       "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/X2ECVJ9BG7VL?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+      "area": "Desarrollador FrontEnd",
+      "studyType": "Bachelor",
+      "startDate": "Enero 2024",
+      "endDate": "Marzo 2024",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     }
   ],
   "awards": [
@@ -117,40 +140,69 @@
   ],
   "skills": [
     {
-      "keywords": ["HTML"]
+      "keywords": [
+        "HTML"
+      ]
     },
     {
-      "keywords": ["CSS"]
+      "keywords": [
+        "CSS"
+      ]
     },
     {
-      "keywords": ["Tailwind CSS"]
+      "keywords": [
+        "Tailwind CSS"
+      ]
     },
     {
-      "keywords": ["JavaScript"]
+      "keywords": [
+        "JavaScript"
+      ]
     },
     {
-      "keywords": ["TypeScript"]
+      "keywords": [
+        "TypeScript"
+      ]
     },
     {
-      "keywords": ["Python"]
+      "keywords": [
+        "Python"
+      ]
     },
     {
-      "keywords": ["Node.js"]
+      "keywords": [
+        "Node.js"
+      ]
     },
     {
-      "keywords": ["Express.js"]
+      "keywords": [
+        "Express.js"
+      ]
     },
     {
-      "keywords": ["MySQL"]
+      "keywords": [
+        "MySQL"
+      ]
     },
     {
-      "keywords": ["MongoDB"]
+      "keywords": [
+        "MongoDB"
+      ]
     },
     {
-      "keywords": ["Git"]
+      "keywords": [
+        "Git"
+      ]
     },
     {
-      "keywords": ["React/Next.js/Astro"]
+      "keywords": [
+        "React/Next.js/Astro"
+      ]
+    },
+    {
+      "keywords": [
+        "Jupyter"
+      ]
     }
   ],
   "languages": [
@@ -162,7 +214,10 @@
   "interests": [
     {
       "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
     }
   ],
   "references": [
@@ -173,45 +228,51 @@
   ],
   "projects": [
     {
-      "name": "ExemplarClean",
-      "isActive": true,
-      "startDate": "2023-10-15",
-      "endDate": "2023-10-28",
-      "description": "Landing Page para una compañia de servicios de limpieza.",
-      "highlights": ["Astro", "Typescript", "Tailwind CSS"],
-      "url": "https://exemplarclean.netlify.app/"
-    },
-    {
-      "name": "BoaVista",
+      "name": "Delphos",
       "isActive": true,
       "startDate": "2023-12-10",
       "endDate": "2023-12-13",
-      "description": "Landing Page enfocada en la atracción de turistas del extranjero.",
-      "highlights": ["Astro", "Typescript", "Tailwind CSS"],
-      "url": "https://project.com/"
+      "description": "Oraculo Crypto con analisis en tiempo real y chat box personalizado",
+      "highlights": [
+        "Next",
+        "React",
+        "Tailwind CSS",
+        "Python",
+        "Node.Js"
+      ],
+      "url": "https://delphos.dev/"
     },
     {
-      "name": "POV",
+      "name": "C2 Developers España",
+      "isActive": true,
+      "startDate": "2023-10-15",
+      "endDate": "2023-10-28",
+      "description": "Landing Page para emresa de software",
+      "highlights": [
+        "React",
+        "Next",
+        "Tailwind CSS"
+      ],
+      "url": "https://c2developers.com/portfolio"
+    },
+    {
+      "name": "Prediccion de Renta Inmobiliario",
       "isActive": true,
       "startDate": "2023-10-05",
       "endDate": "2023-11-01",
-      "description": "¡POV la plataforma que transforma la interacción social!",
+      "description": "Modelo de Aprendizaje Supervisado para la Predicción del Mercado Inmobiliario",
       "highlights": [
-        "React",
-        "Javascript",
-        "Next.js",
-        "Node.js",
-        "Express.js",
-        "Socket.io"
+        "Python",
+        "Jupyter"
       ],
-      "url": "https://pov-chat.netlify.app/"
+      "url": "https://github.com/SebasPreciado10/PrediccionesRenta/blob/main/TOP%20Modelos%20ML.ipynb"
     },
     {
-      "name": "Dashboard",
+      "name": "StepOneFx",
       "isActive": true,
       "startDate": "2023-12-07",
       "endDate": "2023-12-31",
-      "description": "Gestion de control de ventas y compras personalizadas.",
+      "description": "Plataforma Trading.",
       "highlights": [
         "Next.js",
         "React",
@@ -219,14 +280,14 @@
         "Tailwind CSS",
         "PostgreSQL"
       ],
-      "url": "https://github.com/montoyitadevelp/nextjs-dashboard"
+      "url": "https://steponefx.com/"
     },
     {
-      "name": "ChatApp",
+      "name": "Portafolio Personalizado",
       "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Aplicación de mensajeria en tiempo real y registro de usuarios.",
+      "description": "Portafolio personalizado.",
       "highlights": [
         "React",
         "Javascript",
@@ -236,15 +297,6 @@
         "Socket.io"
       ],
       "url": "https://github.com/montoyitadevelp/Mongo-Socket-React"
-    },
-    {
-      "name": "Teletubbie",
-      "isActive": true,
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Alquilar tu lugar favorito para tus pasatiempos, ahora no es problema con Teletubbie",
-      "highlights": ["React", "Typescript", "NextUI", "Supabase"],
-      "url": "https://github.com/montoyitadevelp/Teletubie"
     }
   ]
 }
