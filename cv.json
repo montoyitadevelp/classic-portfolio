@@ -3,6 +3,7 @@
     "name": "Sebastian Patiño Preciado",
     "label": "Fullstack Web Developer",
     "email": "sebaspreciado1044@gmail.com",
+    "url": "https://cv-sebaspreciado.netlify.app/",
     "phone": "+57 (321) 844-5333",
     "summary": "Ingeniero apasionado con un enfoque colaborativo y una fuerte inclinación por la programación, el diseño y la innovación. Entusiasta y extrovertido, disfruto enfrentar nuevos retos y adquirir habilidades continuamente. Mi pasión por la ingeniería se refleja en la resolución creativa de problemas y la creación de soluciones innovadoras. Comprometido con el aprendizaje constante, el trabajo en equipo y el crecimiento personal.",
     "location": {
@@ -15,13 +16,18 @@
     "profiles": [
       {
         "network": "Github",
-        "username": "SebasPreciado19",
+        "username": "SebasPreciado10",
         "url": "https://github.com/SebasPreciado10"
       },
       {
         "network": "Linkedin",
         "username": "sebastián-preciado-4b34a22a4",
         "url": "https://www.linkedin.com/in/sebasti%C3%A1n-preciado-4b34a22a4/"
+      },
+      {
+        "network": "Website",
+        "username": "Sebastian Preciado",
+        "url": "https://cv-sebaspreciado.netlify.app/"
       }
     ]
   },
@@ -29,7 +35,7 @@
     {
       "name": "Bancolombia",
       "position": "Fullstack Developer en Riesgos Operacionales",
-      "url": "https://www.grupobancolombia.com/es",
+      "url": "https://cv-sebaspreciado.netlify.app/",
       "startDate": "Agosto 2023",
       "endDate": "Febrero 2024",
       "summary": "Desarrollo y soporte de herramientas automatizadas (RPAs) para la generación eficiente de informes, junto con el diseño integral de soluciones Front-end y Back-end para un proyecto de identificación automática de riesgos, utilizando fine-tuning de GPT-2 (modelos de lenguaje avanzados).",
@@ -224,7 +230,7 @@
       ]
     }
   ],
-   "references": [
+  "references": [
     {
       "name": "Yohan Manuel Tobon",
       "company": "Bancolombia",
