@@ -1,6 +1,7 @@
 ---
 import { work } from '@cv';
 import Section from '../Section.astro';
+import Link from '@/icons/Link.astro';
 ---
 
 <Section title="Experiencia">
@@ -15,6 +16,7 @@ import Section from '../Section.astro';
           summary,
           highlights,
           location,
+          url
         }) => {
           return (
             <li>
@@ -22,7 +24,14 @@ import Section from '../Section.astro';
                 <header>
                   <div class="location">
                     <div class="company">
-                      <h3>{name}</h3>
+                      <div class="company-name-container">
+                        <h3>{name}</h3>
+                        {url && (
+                          <a href={url} target="_blank" rel="noopener noreferrer" title={`Visitar sitio de ${name}`}>
+                            <Link />
+                          </a>
+                        )}
+                      </div>
                       <h4>{position}</h4>
                     </div>
                   </div>
@@ -81,6 +90,30 @@ import Section from '../Section.astro';
     display: flex;
     flex-direction: column;
     margin-right: 15px;
+  }
+
+  .company-name-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .company-name-container a {
+    color: #666;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 2px;
+    height: 22px;
+    width: 22px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+
+  .company-name-container a:hover {
+    background: #eee;
+    border: 1px solid #ddd;
   }
 
   .location {

@@ -4,8 +4,7 @@
     "label": "Fullstack Web Developer",
     "email": "sebaspreciado1044@gmail.com",
     "phone": "+57 (321) 844-5333",
-    "url": "https://portfolio-simonmontoya.vercel.app/",
-    "summary": "Soy un chico único e indispensable con habilidades extraordinarias en el mundo de las tecnologías informáticas. Enseñar, innovar y diseñar me ha permitido ayudar al mundo del software. Mi propósito arraiga en mi “ser cuántico”. Aportar, generar y brindar soluciones a las personas es esencial en mi día a día.",
+    "summary": "Ingeniero apasionado con un enfoque colaborativo y una fuerte inclinación por la programación, el diseño y la innovación. Entusiasta y extrovertido, disfruto enfrentar nuevos retos y adquirir habilidades continuamente. Mi pasión por la ingeniería se refleja en la resolución creativa de problemas y la creación de soluciones innovadoras. Comprometido con el aprendizaje constante, el trabajo en equipo y el crecimiento personal.",
     "location": {
       "address": "Calle 30 # 31 - 16",
       "postalCode": "051860",
@@ -30,7 +29,7 @@
     {
       "name": "Bancolombia",
       "position": "Fullstack Developer en Riesgos Operacionales",
-      "url": "https://company.com",
+      "url": "https://www.grupobancolombia.com/es",
       "startDate": "Agosto 2023",
       "endDate": "Febrero 2024",
       "summary": "Desarrollo y soporte de herramientas automatizadas (RPAs) para la generación eficiente de informes, junto con el diseño integral de soluciones Front-end y Back-end para un proyecto de identificación automática de riesgos, utilizando fine-tuning de GPT-2 (modelos de lenguaje avanzados).",
@@ -41,7 +40,7 @@
     {
       "name": "C2 Developers España",
       "position": "Fullstack Developer",
-      "url": "https://company.com",
+      "url": "https://c2developers.com/",
       "startDate": "Marzo 2024",
       "endDate": "Mayo 2025",
       "summary": "Desarrollo integral de dashboards interactivos y sistemas de gestión de NFTs y transferencias, con implementación de herramientas de monitoreo y control de usuarios en tiempo real. Participación en el diseño y desarrollo de un oráculo inteligente basado en IA y smart contracts sobre blockchain Solana. Además, contribución clave en la creación y renovación de la página principal de la empresa, optimizando la experiencia de usuario y la funcionalidad web.",
@@ -51,7 +50,7 @@
     },
     {
       "name": "No Country",
-      "position": "Lead Frontend Architect",
+      "position": "Frontend Developer",
       "url": "https://www.nocountry.tech/",
       "startDate": "Enero 2023",
       "endDate": "Junio 2023",
@@ -64,7 +63,7 @@
     {
       "name": "Prysma Fotografia",
       "position": "Frontend Developer",
-      "url": "https://company.com",
+      "url": "https://sebaspreciado10.github.io/Portafolio_Web/",
       "startDate": "Enero 2023",
       "endDate": "Junio 2023",
       "summary": "Contribución al desarrollo de un portafolio web para un fotógrafo/arquitecto, resaltando su trabajo con imágenes impactantes. Desarrollo de una infraestructura sólida y con rendimiento eficiente, logrando una fusión exitosa entre estética y funcionalidad.",
@@ -91,7 +90,7 @@
     {
       "institution": "CESDE (institución de educación técnica antioqueña)",
       "url": "https://www.cesde.edu.co/",
-      "area": "Desarrollador De Software",
+      "area": "Ingeniero de Software",
       "studyType": "Bachelor",
       "startDate": "Enero 2022",
       "endDate": "Diciembre 2023",
@@ -181,7 +180,12 @@
     },
     {
       "keywords": [
-        "MySQL"
+        "Django"
+      ]
+    },
+    {
+      "keywords": [
+        "SQL"
       ]
     },
     {
@@ -220,10 +224,18 @@
       ]
     }
   ],
-  "references": [
+   "references": [
     {
-      "name": "Jane Doe",
-      "reference": "Reference…"
+      "name": "Yohan Manuel Tobon",
+      "company": "Bancolombia",
+      "position": "Gerente-Bancolombia | METODOLOGÍAS RNF",
+      "phone": "+57 311 374 16 91"
+    },
+    {
+      "name": "Jaime Cardona",
+      "company": "C2 Developers España",
+      "position": "CEO y Fundador | Desarrollador Senior",
+      "phone": "+34 666 73 72 17"
     }
   ],
   "projects": [
