@@ -98,15 +98,15 @@ const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(' • ');
         }
       </footer>
     </div>
-   <figure>
-  <Image
-    style="object-fit: cover; border-radius: 10px; aspect-ratio: 1 / 1;"
-    src={PersonalPhoto}
-    alt={name}
-    width={156}
-    height={156}
-  />
-</figure>
+    <figure>
+      <Image
+        style="object-fit: cover; border-radius: 16px; aspect-ratio: 1 / 1;"
+        src={PersonalPhoto}
+        alt={name}
+        width={190}
+        quality={100} // Aumentar calidad (por defecto es 80)
+      />
+    </figure>
   </div>
 </Section>
 
@@ -142,7 +142,7 @@ const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(' • ');
   img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    width: 128px;
+    width: 160px;
     border-radius: 16px;
   }
 
@@ -180,15 +180,6 @@ const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(' • ');
     background: #eee;
     border: 1px solid #ddd;
   }
-
-  figure img {
-  width: 156px;
-  height: 156px;
-  border-radius: 10px;
-  object-fit: cover;
-  aspect-ratio: 1 / 1;
-  image-rendering: auto;
-}
 
   .print {
     display: none;
