@@ -5,7 +5,7 @@
     "email": "sebaspreciado1044@gmail.com",
     "url": "https://cv-sebaspreciado.netlify.app/",
     "phone": "+57 (321) 844-5333",
-    "summary": "Ingeniero apasionado con un enfoque colaborativo y una fuerte inclinación por la programación, el diseño y la innovación. Entusiasta y extrovertido, disfruto enfrentar nuevos retos y adquirir habilidades continuamente. Mi pasión por la ingeniería se refleja en la resolución creativa de problemas y la creación de soluciones innovadoras. Comprometido con el aprendizaje constante, el trabajo en equipo y el crecimiento personal.",
+    "summary": "Desarrollador de software apasionado con un enfoque colaborativo y una fuerte inclinación por la programación, el diseño y la innovación. Entusiasta y extrovertido, disfruto enfrentar nuevos retos y adquirir habilidades continuamente. Mi pasión por el Desarrollo de software se refleja en la resolución creativa de problemas y la creación de soluciones innovadoras. Comprometido con el aprendizaje constante, el trabajo en equipo y el crecimiento personal.",
     "location": {
       "address": "Calle 30 # 31 - 16",
       "postalCode": "051860",
@@ -96,7 +96,7 @@
     {
       "institution": "CESDE (institución de educación técnica antioqueña)",
       "url": "https://www.cesde.edu.co/",
-      "area": "Ingeniero de Software",
+      "area": "Desarrollador de software",
       "studyType": "Bachelor",
       "startDate": "Enero 2022",
       "endDate": "Diciembre 2023",
@@ -265,7 +265,7 @@
       "isActive": true,
       "startDate": "2023-10-15",
       "endDate": "2023-10-28",
-      "description": "Landing Page para emresa de software",
+      "description": "Landing Page para empresa de software",
       "highlights": [
         "React",
         "Next",
@@ -314,7 +314,7 @@
         "MongoDB",
         "Socket.io"
       ],
-      "url": "https://github.com/montoyitadevelp/Mongo-Socket-React"
+      "url": "https://leo-portfolio-psi.vercel.app/gallery"
     }
   ]
 }

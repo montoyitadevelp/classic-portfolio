@@ -98,14 +98,15 @@ const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(' • ');
         }
       </footer>
     </div>
-    <figure>
-      <Image
-        style="object-fit: cover;  border-radius: 16px; aspect-ratio: 1 / 1;"
-        src={PersonalPhoto}
-        alt={name}
-        width={160}
-      />
-    </figure>
+   <figure>
+  <Image
+    style="object-fit: cover; border-radius: 10px; aspect-ratio: 1 / 1;"
+    src={PersonalPhoto}
+    alt={name}
+    width={156}
+    height={156}
+  />
+</figure>
   </div>
 </Section>
 
@@ -179,6 +180,15 @@ const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(' • ');
     background: #eee;
     border: 1px solid #ddd;
   }
+
+  figure img {
+  width: 156px;
+  height: 156px;
+  border-radius: 10px;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  image-rendering: auto;
+}
 
   .print {
     display: none;
