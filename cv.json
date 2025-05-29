@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Simón Restrepo Montoya",
-    "label": "Fullstack Web Developer",
+    "label": "Software Engineer",
     "email": "montoyitaaa1022@gmail.com",
     "phone": "+57 (310) 855-1628",
     "url": "https://portfolio-simonmontoya.vercel.app/",
-    "summary": "Soy un chico único e indispensable con habilidades extraordinarias en el mundo de las tecnologías informáticas. Enseñar, innovar y diseñar me ha permitido ayudar al mundo del software. Mi propósito arraiga en mi “ser cuántico”. Aportar, generar y brindar soluciones a las personas es esencial en mi día a día.",
+    "summary": "Soy un ingeniero apasionado con un enfoque colaborativo y una fuerte inclinación por la programación, el diseño y la innovación. Entusiasta y extrovertido, disfruto enfrentar nuevos retos y adquirir habilidades continuamente. Mi pasión por la ingeniería se refleja en la resolución creativa de problemas y la creación de soluciones innovadoras. Comprometido con el aprendizaje constante, el trabajo en equipo y el crecimiento personal.",
     "location": {
       "address": "Calle 30 # 31 - 16",
       "postalCode": "051860",
@@ -38,12 +38,21 @@
   },
   "work": [
     {
+      "name": "Innovapues",
+      "position": "Software Engineer",
+      "url": "https://innovapues.com/",
+      "startDate": "Mayo 2024",
+      "endDate": "Mayo 2025",
+      "summary": "Gestioné y diseñé un sistema de estudios tributarios orientado a proveer soluciones de información actualizadas y confiables en los ámbitos tributario, contable y afines, implementando una arquitectura integral que incluyó un frontend desarrollado en React y React Native, una capa backend en Python con base de datos PostgreSQL, y sistemas de almacenamiento en caché utilizando Memcached para optimizar el rendimiento. Se mejoró en un 55% la entrega de contenido mediante la integración de un CDN y políticas de cacheo avanzadas en AWS CloudFront, logrando además una reducción del 30% en los costos de infraestructura gracias al uso eficiente de servidores EC2 con balanceo de carga y escalado automático. El sistema fue gestionado bajo prácticas de CI/CD con GitHub Actions y despliegues automatizados, garantizando alta disponibilidad y despliegues seguros.",
+      "highlights": ["Started the company"]
+    },
+    {
       "name": "Bancolombia - GRC",
       "position": "Fullstack Developer",
       "url": "https://company.com",
       "startDate": "Septiembre 2023",
       "endDate": "Enero 2024",
-      "summary": "Escale y desarrolle nuevos servicios en la plataforma del GRC, para el consumo de información frente al análisis de datos, por lo que recorte los tiempos de carga y despliegue en producción. Mejorando la accesibilidad, confidencialidad y seguridad en el cliente. Trabajé como prestador de servicios durante 5 meses.",
+      "summary": "Desarrollo y soporte de herramientas automatizadas (RPAs) para la generación eficiente de informes, junto con el diseño integral de soluciones Front-end y Back-end para un proyecto de identificación automática de riesgos, utilizando fine-tuning de GPT-2 (modelos de lenguaje avanzados).",
       "highlights": ["Started the company"]
     },
     {
@@ -85,7 +94,7 @@
       "area": "Ciencias de la computación.",
       "studyType": "Bachelor",
       "startDate": "Febrero 2021",
-      "endDate": "Noviembre 2022",
+      "endDate": "Enero 2025",
       "score": "4.0",
       "courses": ["DB1101 - Basic SQL"]
     }
@@ -151,6 +160,15 @@
     },
     {
       "keywords": ["React/Next.js/Astro"]
+    },
+    {
+      "keywords": ["React Native"]
+    },
+    {
+      "keywords": ["FastAPI"]
+    },
+    {
+      "keywords": ["AWS/CloudFront/EC2/S3"]
     }
   ],
   "languages": [
@@ -173,13 +191,13 @@
   ],
   "projects": [
     {
-      "name": "ExemplarClean",
+      "name": "CETAPP",
       "isActive": true,
-      "startDate": "2023-10-15",
-      "endDate": "2023-10-28",
-      "description": "Landing Page para una compañia de servicios de limpieza.",
-      "highlights": ["Astro", "Typescript", "Tailwind CSS"],
-      "url": "https://exemplarclean.netlify.app/"
+      "startDate": "2024-05-15",
+      "endDate": "2025-05-19",
+      "description": "Centro de Estudios Tributarios.",
+      "highlights": ["React", "React Native", "Expo", "Typescript", "Next.js", "Python", "FastAPI"],
+      "url": "https://cetapp.ceta.org.co/"
     },
     {
       "name": "BoaVista",

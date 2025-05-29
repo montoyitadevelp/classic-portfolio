@@ -9,7 +9,7 @@ import TikTok from '@/icons/TikTok.astro';
 import Github from '@/icons/Github.astro';
 import World from '@/icons/World.astro';
 import Link from '@/icons/Link.astro';
-import PersonalPhoto from '../../../public/Personalphoto.webp';
+import PersonalPhoto from '../../../public/PersonalPhoto.jpeg';
 import Website from '@/icons/Site.astro';
 
 const { name, label, location, profiles, phone, email } = basics;
@@ -100,10 +100,10 @@ const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(' • ');
     </div>
     <figure>
       <Image
-        style="object-fit: cover;  border-radius: 16px; aspect-ratio: 1 / 1;"
-        src={PersonalPhoto}
-        alt={name}
-        width={160}
+      style="object-fit: cover; border-radius: 16px; aspect-ratio: 1 / 1; width: 256px; height: 256px;"
+      src={PersonalPhoto}
+      alt={name}
+      quality={100} 
       />
     </figure>
   </div>
